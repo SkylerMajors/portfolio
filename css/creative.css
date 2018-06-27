@@ -310,7 +310,9 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
-
+#about{
+  padding-bottom: 30px;
+}
 .valPannel{
   position: relative;
   width:350px;
@@ -342,12 +344,21 @@ header.masthead p {
 #Morality{
   top:-85px;
   height: 550px;
+  float:center;
 }
 #Excellence{
   top:-30px;
 }
 .skills{
-  top:-130px;
+  position: relative;
+  width: 300px;
+  display:inline-block;
+}
+#hard{
+  float:left;
+}
+#soft{
+  float:right;
 }
 #name{
   color:black;
