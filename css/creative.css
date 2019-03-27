@@ -368,9 +368,26 @@ header.masthead p {
   height:100px;
   display: inline-block;
 }
+#a{
+  position: relative;
+  top: -162px
+}
+#c{
+  position: relative;
+  top: -162px;
+}
+#d{
+  position: relative;
+  top: 55px;
+}
+#e{
+  position:relative;
+  top: 55px;
+}
 .portfolio{
   text-align: center;
   background:#E0FAB2;
+  padding-bottom: 270px;
 }
 hr.line{
   max-width: 500px !important;
